@@ -1,56 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    text-decoration: none;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #E4EEF1;
+    background-color: #FF69B4;
+    height: 15vh;
 }
 
-body {
-    font-family: "Noto Sans", serif;
-    font-size: large;
-    
-  }
-
-   
-
- header {
+section {
     display: flex;
-     background-color: #FF69B4;
-        
-        color: #E4EEF1;
-        height: 15vh;
-    text-align: center; 
-        display:flex;
-        justify-content: space-around; 
+    align-items: center;
+    
+}
+nav {
+    width: 40%;
+}
+    .imgClass1 {
+        height:100px;
+        width: 100px ;
+
 
     }
 
+
+
+ul {
+    display:flex;
+    justify-content: space-around;
     
-            
-nav    {
-        width: 40%;
 }
-        ul {
-            display: flex;
-            justify-content: space-around;
-
-            a {
-                color: #E4EEF1;  
-                font-size: 28px;
-            }
-                }
-.sessao { 
-    background-color: #FFD9EC;
-    display: flex;
-    flex-direction: row;
-
-
-}
-        
-         
-            
-        
-
+ 
+a {
+        color: #E4EEF1;  
+        font-size: 15px;
      
+         }
+
+         main{
+            .sessaoAlerta {
+                // vh - viewport height
+                height: 50vh;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color: #FFD9EC;
+                p {
+                    width: 40%;
+                    font-size: 20px;
+                color : black
+                    }
+                img {
+                    width: 19.010416666666668vw;
+                }
+              }
+              .sessaoCorrida {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                height: 35vh;
+                background-color: #FF69B4;
+             }
+             p {
+                width: 50%;
+                font-size: 20px;
+                color: #E4EEF1;
+            }
+            .imgclass2 {
+                width: 400px;
+                left:-500px;
+
+
+            }
+            
+            }
+
          
+        
+    
+
+
+    
+           
+           
+        
+        
+        
+        
+        
+        
+      
+
+
+    
+
