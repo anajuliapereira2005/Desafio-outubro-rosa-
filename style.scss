@@ -84,7 +84,7 @@ a {
             .fotos {
                 background: #FFD9EC;
                 padding: 75px;
-                justify-content: space-evenly;
+                justify-content: space-between;
                 
 
                 .imga {
@@ -98,12 +98,45 @@ a {
                    width: 200px; 
                 }
                   .imgd {
+                        display: flex ;
                         width: 200px;
                   }
                 
                 }
             }
+           footer {
+              height: 50%;
+              background-color: #FF69B4; 
+              display: flex;
+              justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+           .fotoe {
+                 width: 55px;
+                 height:55px ;
+           }
+           .fotog {
+                  width: 55 px; 
+                  height: 55px;
+           }
+           .fotoh {
+                 width: 55px ;
+                height: 55px;
+           }
+           
+            ul {
+                color: #E4EEF1;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+            }
+            .laço{
+                width: 105px;
+                height: 109px;
+            }
 
+
+                   }
          
         
     

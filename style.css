@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -75,7 +76,7 @@ main .imgclass2 {
 main .fotos {
   background: #FFD9EC;
   padding: 75px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 main .fotos .imga {
   width: 200px;
@@ -88,5 +89,37 @@ main .fotos .imgc {
   width: 200px;
 }
 main .fotos .imgd {
+  display: flex;
   width: 200px;
+}
+
+footer {
+  height: 50%;
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+footer .fotoe {
+  width: 55px;
+  height: 55px;
+}
+footer .fotog {
+  width: 55 px;
+  height: 55px;
+}
+footer .fotoh {
+  width: 55px;
+  height: 55px;
+}
+footer ul {
+  color: #E4EEF1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+footer .laço {
+  width: 105px;
+  height: 109px;
 }/*# sourceMappingURL=style.css.map */
